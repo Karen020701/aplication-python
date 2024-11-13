@@ -26,3 +26,6 @@ In the browser enter http://localhost:5000 and the message “Hello World python
 **Deployment on Railway**  
 This project was deployed in Railway, the connection to the Railway account and access to the repository in Github was done.   
 Once deployed I generate the link: https://aplication-python-production.up.railway.app/ 
+
+![image](https://github.com/user-attachments/assets/47b4e7d0-fc6d-4253-85a3-f9beb5657687)
+
