@@ -1,31 +1,56 @@
-**Hello World” project in Python language**  
-This is a basic project of a “Hello World” in python language, we are going to use Docker to create a container of the program and Railway is used to deploy the project in the cloud.  
+# Hello World Project in Python Language
 
-It is required to verify the installation of the Python extension on the computer, this is done by accessing to the computer and running the command python --version otherwise if you don't have it go to https://www.python.org/downloads/ and download it.  
+This is a basic "Hello World" project in the Python programming language. We will use Docker to create a container for the program, and Railway to deploy the project in the cloud.
 
-**Clone the project**  
+## Prerequisites
 
-Locate in a folder of preference to be able to clone the project with the following command:  
-https://github.com/Karen020701/aplication-python.git  
+It is required to verify the installation of Python on your computer. To check, open a terminal and run:
 
-To run the project locally, navigate to the project folder and execute the command:  
-python app.py  
+```bash
+python --version
+```
 
-In the browser enter http://localhost:5000 and the message “Hello World python language” will be displayed.  
+If Python is not installed, download it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-**Running with Docker**  
-An image is built in Docker. Once inside the directory to download the created image the command is executed:  
-docker pull karenchicaiza/aplicationpython  
+## Clone the Project
 
-To run the container the command is used:  
-docker run -p 5000:5000 karenchicaiza/aplicationpython  
+1. Locate a folder of your choice and clone the project with the following command:
 
-In the browser enter http://localhost:5000 and the message “Hello World python language” will be displayed.  
+    ```bash
+    git clone https://github.com/Karen020701/aplication-python.git
+    ```
 
+2. To run the project locally, navigate to the project folder and execute:
 
-**Deployment on Railway**  
-This project was deployed in Railway, the connection to the Railway account and access to the repository in Github was done.   
-Once deployed I generate the link: https://aplication-python-production.up.railway.app/ 
+    ```bash
+    python app.py
+    ```
+
+3. Then, in your browser, go to [http://localhost:5000](http://localhost:5000). You should see the message: **"Hello World python language"**.
+
+## Running with Docker
+
+To run this project in a Docker container:
+
+1. First, pull the Docker image. In the project directory, download the image with the command:
+
+    ```bash
+    docker pull karenchicaiza/aplicationpython
+    ```
+
+2. To start the container, use the command:
+
+    ```bash
+    docker run -p 5000:5000 karenchicaiza/aplicationpython
+    ```
+
+3. In your browser, go to [http://localhost:5000](http://localhost:5000) and you will see the message: **"Hello World python language"**.
+
+## Deployment on Railway
+
+This project has been deployed on Railway. The Railway account was connected, and access to the GitHub repository was configured. Once deployed, the following link was generated:
+
+[https://aplication-python-production.up.railway.app/](https://aplication-python-production.up.railway.app/)
 
 ![image](https://github.com/user-attachments/assets/47b4e7d0-fc6d-4253-85a3-f9beb5657687)
 
